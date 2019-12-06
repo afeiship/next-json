@@ -1,13 +1,14 @@
 /*!
- * name: next-json
- * link: https://github.com/afeiship/next-json
+ * name: @feizheng/next-json
+ * url: https://github.com/afeiship/next-json
  * version: 1.0.0
+ * date: 2019-12-06T08:45:34.825Z
  * license: MIT
  */
 
 (function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
 
   nx.json = JSON;
   nx.parse = function(inValue) {
@@ -32,3 +33,5 @@
     };
   }
 })();
+
+//# sourceMappingURL=next-json.js.map

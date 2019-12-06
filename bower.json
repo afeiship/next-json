@@ -1,7 +1,7 @@
 {
   "name": "next-json",
   "version": "0.0.1",
-  "description": "Better json parse/stringify for JSON",
+  "description": "nextBoilerplatePackageDescription",
   "main": "dist/next-json.js",
   "authors": [
     "afei"
