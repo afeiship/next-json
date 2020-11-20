@@ -3,7 +3,7 @@
  * description: Better json parse/stringify for JSON.
  * homepage: https://github.com/afeiship/next-json
  * version: 1.0.0
- * date: 2020-11-20 15:52:09
+ * date: 2020-11-20 15:57:48
  * license: MIT
  */
 
