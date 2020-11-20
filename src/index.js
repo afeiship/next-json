@@ -1,16 +1,16 @@
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.json = JSON;
-  nx.parse = function(inValue) {
+  nx.parse = function (inValue) {
     try {
       return JSON.parse(inValue);
     } catch (_) {}
     return inValue;
   };
 
-  nx.stringify = function(inValue) {
+  nx.stringify = function (inValue) {
     try {
       return JSON.stringify(inValue);
     } catch (_) {}
@@ -24,4 +24,5 @@
       stringify: nx.stringify
     };
   }
+
 })();
