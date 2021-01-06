@@ -2,13 +2,13 @@
  * name: @jswork/next-json
  * description: Better json parse/stringify for JSON.
  * homepage: https://github.com/afeiship/next-json
- * version: 1.0.0
- * date: 2020-11-20 15:57:48
+ * version: 1.0.1
+ * date: 2021-01-06 22:19:38
  * license: MIT
  */
 
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = global || window || Function('return this')();
   var nx = global.nx || require('@jswork/next');
 
   nx.json = JSON;
