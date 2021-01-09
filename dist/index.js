@@ -2,8 +2,8 @@
  * name: @jswork/next-json
  * description: Better json parse/stringify for JSON.
  * homepage: https://github.com/afeiship/next-json
- * version: 1.0.1
- * date: 2021-01-06 22:19:38
+ * version: 1.0.2
+ * date: 2021-01-09 16:19:09
  * license: MIT
  */
 

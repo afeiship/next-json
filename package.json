@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Better json parse/stringify for JSON.",
   "homepage": "https://github.com/afeiship/next-json",
   "author": {
