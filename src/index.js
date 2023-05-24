@@ -15,7 +15,7 @@ nx.stringify = function (inValue) {
   return inValue;
 };
 
-if (typeof module !== 'undefined' && module.exports) {
+if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
   module.exports = {
     json: nx.json,
     parse: nx.parse,
