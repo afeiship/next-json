@@ -17,8 +17,13 @@ describe('api.basic test', () => {
 
   test('json:stringify', () => {
     var obj = { name: 'fei' };
-
-    // console.log(nx.stringify(obj));
     expect(nx.stringify(obj)).toBe('{"name":"fei"}');
+  });
+
+  test('json.parse str(boolean) value', () => {
+    const v1 = 'true';
+    const v2 = 'false';
+    expect(nx.parse(v1)).toBe(true);
+    expect(nx.parse(v2)).toBe(false);
   });
 });
